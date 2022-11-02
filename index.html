@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+    <title>Hamburger</title>
+    <!-- Bootstrap CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Google Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- AOS  -->
+    <link href="node/aos/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3 text-uppercase sticky-top shadow-lg">
+        <div class="container">
+            <a href="" class="navbar-brand"><strong>Hamburger</strong></a>
+
+            <button class="navbar-toggler bg-success" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#plan">Plan</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#product">Products</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#faq">Faq</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+        
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#loginOffcanvas" data-bs-toggle="offcanvas">Sign In</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#registerOffcanvas" data-bs-toggle="offcanvas">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="header">
+        <video src="images/hamburger.mp4" autoplay loop muted></video>
+        <div class="overlay"></div>
+        <div class="container py-5">
+            <h1 class="text-white" style="font-size: 5rem;" data-aos="fade-right" data-aos-duration="2000">COME HUNGRY,</h1>
+            <h3 class="text-white" style="font-size: 3rem;" data-aos="fade-left" data-aos-duration="2000">& LEAVE HAPPY!</h3>
+            <p class="text-white" style="max-width: 500px" data-aos="fade-right" data-aos-duration="2000">SPICY PROWN FLAVOUR, CHICKEN FLAVOUR,BEEF FLAVOUR ARE AVAILABLE HERE!</p>
+            <a class="btn btn-danger" href="#registerOffcanvas" data-bs-toggle="offcanvas" data-aos="fade-left" data-aos-duration="2000">JOIN US</a>
+        </div>
+    </header>
+
+    <section id="about" class="container p-5">
+        <div class="sub-heading" data-aos="fade-left">ABOUT US</div>
+        <div class="main-heading" data-aos="fade-right">Your Choice is our best.</div>
+        <div class="heading-lin" data-aos="fade-left"></div>
+        <div class="row align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+                <p class="text-white">Everyone loves fast food not only because it is always ready also because it taste delicious. Nowadays fast food is also very popular because of advertisment. All forms of media advertise about fast food, such as the internet, television and billboards in the street.</p>
+                <p class="text-white">By these advertisements they know where every restaurant of fast food is located.The final reason why people also love fast food is because there are so many of them, next to there work place, their homes or on the side of the road.</p>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <img src="images/product-1.png" alt="" class="img-fluid rounded-1">
+            </div>
+        </div>
+    </section>
+
+    <section id="service" class="container p-5">
+        <div class="sub-heading" data-aos="fade-left">OUR SERVICES</div>
+        <div class="main-heading" data-aos="fade-right">What We Offer</div>
+        <div class="heading-lin" data-aos="fade-left"></div>
+        <div class="row">
+            <div class="col-md-5" data-aos="fade-right">
+                <img src="images/product-4.png" alt="" class="main-img img-fluid" style="max-height: 500px;">
+            </div>
+            <div class="col-md-7">
+                <div class="card service-card overflow-hidden bg-dark my-2 p-3" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-7 text-center text-white">
+                            <h5>Smart Service</h5>
+                            <p>
+                               <ul class="liDeco">
+                                <li>More convenient to stop and get our products.</li>
+                                <li> Fast  to prepare meals to customers.</li>
+                               </ul>
+                            </p>
+                          
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/blog-1.jpg" alt="" class="border border-3 border-danger">
+                        </div>
+                    </div>
+                </div>
+                <div class="card service-card overflow-hidden bg-dark my-2 p-3" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-7 text-center text-white">
+                            <h5>Online Delivery Service</h5>
+                            <p>
+                                <ul class="liDeco">
+                                 <li>No need to waste time searching a restaurant.</li>
+                                 <li>Fast and cheap, smart delivery is already.</li>
+                                </ul>
+                             </p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/blog-2.jpg" alt=""  class="border border-3 border-danger">
+                        </div>
+                    </div>
+                </div>
+                <div class="card service-card overflow-hidden bg-dark my-2 p-3" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-7 text-center text-white">
+                            <h5>Happy Party</h5>
+                            <p>
+                                <ul class="liDeco">
+                                    <li>Taste delicious and share your friends.</li>
+                                    <li> Our products will give the kind of food you really love.</li>
+                                   </ul>
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/blog-3.jpg" alt=""  class="border border-3 border-danger">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="plan" class="container p-5">
+        <div class="sub-heading" data-aos="fade-right">PRICING TABLE</div>
+        <div class="main-heading" data-aos="fade-left">Membarship Plan</div>
+        <div class="heading-lin" data-aos="fade-right"></div>
+        <div class="row align-items-center">
+            <div class="col-md-6 col-lg-4" data-aos="fade-right">
+                <div class="card text-center text-light bg-dark border-0">
+                    <div class="card-header">
+                        <h4>$ <span class="fs-1">10</span> /day</h4>
+                    </div>
+                    <div class="alert bg-warning rounded-0">Daily Member</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Hamburger</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Soft drink</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Chips</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Fried Chicken</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Onion rings</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+                <div class="card text-center text-light bg-dark border border-2 border-danger plan-2-card">
+                    <div class="card-header">
+                        <h4>$ <span class="fs-1">79</span> /month</h4>
+                    </div>
+                    <div class="alert bg-danger rounded-0">12 Months Membership</div>
+                    <div class="recommended">Recommended</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Cheeseburger</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Milk shake</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Taco or Burritto</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Fried chicken or Sausage</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Chips</li>
+                            <li class="list-group-item bg-transparent text-light my-2">
+                                <a class="btn btn-danger" href="#registerOffcanvas" data-bs-toggle="offcanvas">SIGN UP NOW</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-left">
+                <div class="card text-center text-light bg-dark border-0">
+                    <div class="card-header">
+                        <h4>$ <span class="fs-1">99</span> /month</h4>
+                    </div>
+                    <div class="alert bg-warning rounded-0">Monthly Payment</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Sandwich and Cheeseburger</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Hotdog or Muffins</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Donuts or Pizza</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Milk shake or soft drink</li>
+                            <li class="list-group-item bg-transparent text-light my-2 border-bottom">Fried chicken or Bacon</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product" class="container p-5">
+        <div class="sub-heading" data-aos="fade-right">Enjoy Here!</div>
+        <div class="main-heading" data-aos="fade-left"> Our Products</div>
+        <div class="heading-lin" data-aos="fade-right"></div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row gy-2">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="card border-0 bg-dark overflow-hidden">
+                            <div class="row">
+                                <div class="col-sm-7 py-3 px-4">
+                                    <h4 class="text-white">PANEER TANDOORI</h4>
+                                    <h6 class="text-warning">MEAL: FRIES + COKE + BURGER</h6>
+                                    <p class="text-white">
+                                       PANEER TANDOORI  $45
+                                    </p>
+                                    <p class="text-white">
+                                        MEAL  $45
+                                     </p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <img src="images/product-1.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="card border-0 bg-dark overflow-hidden">
+                            <div class="row">
+                                <div class="col-sm-7 py-3 px-4">
+                                    <h4 class="text-white">ALLO TIKKI</h4>
+                                    <h6 class="text-warning">MEAL: FRIES + COKE + BURGER</h6>
+                                    <p class="text-white">
+                                       ALLO TIKKI  $25
+                                    </p>
+                                    <p class="text-white">
+                                        MEAL  $45
+                                     </p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <img src="images/product-2.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gy-2">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="card border-0 bg-dark overflow-hidden">
+                            <div class="row">
+                                <div class="col-sm-7 py-3 px-4">
+                                    <h4 class="text-white">VEG CRISPY</h4>
+                                    <h6 class="text-warning">MEAL: FRIES + COKE + BURGER</h6>
+                                    <p class="text-white">
+                                       VEG CRISPY  $25
+                                    </p>
+                                    <p class="text-white">
+                                        MEAL  $45
+                                     </p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <img src="images/product-3.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="card border-0 bg-dark overflow-hidden">
+                            <div class="row">
+                                <div class="col-sm-7 py-3 px-4">
+                                    <h4 class="text-white">CHICKEN MASALA</h4>
+                                    <h6 class="text-warning">MEAL: FRIES + COKE + BURGER</h6>
+                                    <p class="text-white">
+                                       CHICKEN MASALA  $75
+                                    </p>
+                                    <p class="text-white">
+                                        MEAL  $115
+                                     </p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <img src="images/product-4.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gy-2">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="card border-0 bg-dark overflow-hidden">
+                            <div class="row">
+                                <div class="col-sm-7 py-3 px-4">
+                                    <h4 class="text-white">JUICY CHEESE</h4>
+                                    <h6 class="text-warning">MEAL: FRIES + COKE + BURGER</h6>
+                                    <p class="text-white">
+                                      JUICY CHEESE  $35
+                                    </p>
+                                    <p class="text-white">
+                                        MEAL  $55
+                                     </p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <img src="images/product-5.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="card border-0 bg-dark overflow-hidden">
+                            <div class="row">
+                                <div class="col-sm-7 py-3 px-4">
+                                    <h4 class="text-white">VEG SMACKER</h4>
+                                    <h6 class="text-warning">MEAL: FRIES + COKE + BURGER</h6>
+                                    <p class="text-white">
+                                      VEG SMACKER  $55
+                                    </p>
+                                    <p class="text-white">
+                                        MEAL  $75
+                                     </p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <img src="images/product-6.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section id="news" class="container p-5">
+        <div class="sub-heading" data-aos="fade-right">RECENT BLOGS</div>
+        <div class="main-heading" data-aos="fade-left">Our Latest News</div>
+        <div class="heading-lin" data-aos="fade-right"></div>
+        <div class="row gy-2">
+            <div class="col-md-6 col-lg-4" data-aos="fade-right">
+                <div class="card bg-dark text-white">
+                    <div class="card-header">
+                        <img src="images/pic-1.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-warning">Aung Naing Phyo</h6>
+                        <h5>Fast food and Health</h5>
+                        <p>Everyone in some point of their life has eaten fast food, because of the lack of time, or because you do not feel like cooking.</p>
+                        <p>
+                            Eating fast food is not bad as long as you do not overdo.If you combine it with a nutritious food everything is fine.
+                        </p>
+                        <div>
+                            <span><i class="bi bi-stopwatch"></i>25minutes ago</span>
+                            <span class="float-end"><i class="bi bi-chat"></i> 83 comments</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+                <div class="card bg-dark text-white">
+                    <div class="card-header">
+                        <img src="images/pic-2.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-warning">Mary</h6>
+                        <h5>Cooking Big Tasty Hamburger</h5>
+                        <p>The greater the fat material is in hamburger, the better the taste.It would be excellent to put some season wearing the burger.</p>
+                        <p>
+                            You can pack smidgens of bread crumbs, garlic, or onions,blended well with an egg inside the patty.
+                        </p>
+                        <div>
+                            <span><i class="bi bi-stopwatch"></i>18hours ago</span>
+                            <span class="float-end"><i class="bi bi-chat"></i> 61 comments</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-left">
+                <div class="card bg-dark text-white">
+                    <div class="card-header">
+                        <img src="images/pic-3.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-warning">Clare</h6>
+                        <h5>Thinking as hobby Response</h5>
+                        <p>The greater the fat material is in hamburger, the better the taste.It would be excellent to put some season wearing the burger.</p>
+                        <p>
+                            You can pack smidgens of bread crumbs, garlic, or onions,blended well with an egg inside the patty.
+                        </p>
+                        <div>
+                            <span><i class="bi bi-stopwatch"></i>12hours ago</span>
+                            <span class="float-end"><i class="bi bi-chat"></i> 31 comments</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="container p-5">
+        <div class="sub-heading" data-aos="fade-right">FREQUENTLY ASK QUESTION</div>
+        <div class="main-heading" data-aos="fade-left">FAQ</div>
+        <div class="heading-lin" data-aos="fade-right"></div>
+
+        <div class="accordion" id="accordionExample" data-aos="zoom-in">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is inside in a burger?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  A burger is a patty of ground beef grilled and placed between two helves of a bun.Slices of raw onion,lettuce,bacon,mayonnaise and other ingredients add flavour.Burgers are considered an American food but are popular around the world.In japan,teriyaki burgers are popular.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               How do you market a fast-food business?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    <ol>
+                    <li>Offer meal bundles and combos.</li>
+                    <li>Create a kid's menu.</li>
+                    <li>Offer collectibles with the purchase of a kid's menu.</li>
+                    <li>Allow customers to scan a QR code to browse the menu and orde.</li>
+                    <li>Create a branded app so customers can order food online.</li>
+                    </ol>
+                </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What are the benefits of burger?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Burger meat is the rich protein source, especially when it comes to Chapps'top notch beef.Protein present ypur body's source of energy, it builds muscle as well as gives structure to the cells. Depending on their lifestyle and diet,people need between 50 and 175 grams of protein per day.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="contact" class="container-fluid">
+        <div class="sub-heading" data-aos="fade-right">CONTACT US</div>
+        <div class="main-heading" data-aos="fade-left">+95 9123 456 789</div>
+        <div class="heading-lin" data-aos="fade-right"></div>
+        <a href="" class="btn btn-danger" data-aos="fade-left">CALL FOR MORE</a>
+    </section>
+
+    <footer id="footer" class="container-fluid bg-dark text-light p-5">
+        <div class="row g-5">
+            <div class="col-md-4">
+                <div class="sub-heading">Snacks & Drinks</div>
+                <div class="heading-lin"></div>
+                <p>Burger + Chips, Pizza, Chinese Food, Chicken spicy legs, Ice Lolly and Cone, Taco, Rings Squid, Donuts(Chocolate or Fruit), Cold Beer(Light or Dark), Mexican Tortillas, Hot Dog, Coke are available.</p>
+                <div>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1">
+                    <i class="bi bi-facebook"></i></a>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="btn btn-outline-danger text-white mx-1"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="sub-heading">QUICK CONTACT</div>
+                <div class="heading-lin"></div>
+                <ul>
+                    <li> <i class="bi bi-geo-alt-fill text-danger"></i> No.426, 50 St, Yangon, Myanmar</li>
+                    <li> <i class="bi bi-telephone-fill text-danger"></i> +95 9123 456 789</li>
+                    <li> <i class="bi bi-envelope-fill text-danger"></i> hamburger@gmail.com</li>
+                    <li> <i class="bi bi-globe text-danger"></i> <a href="#">www.hamburger.com</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="sub-heading">SEND US MESSAGE</div>
+                <div class="heading-lin"></div>
+                <form action="mailto:emailid@example.com">
+                    <div class="mb-3">
+                        <input type="text" class="form-control border border-danger" placeholder="Your Email" name="add_name">
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="add_content" id="" class="form-control border border-danger" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button class="btn btn-danger"> <i class="bi bi-send-fill"></i> Send</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <section id="copyrihgt" class="container-fluid bg-dark text-light p-5">
+        <p class="text-center"> &copy; Copyright & all right reserved by Shwe-tech</p>
+    </section>
+
+    <a href="#header" class="up-arrow text-light"><i class="bi bi-arrow-up"></i></a>
+    <a href="#footer" class="down-arrow text-light"><i class="bi bi-arrow-down"></i></a>
+
+    <section class="sign-in-up">
+        <div class="offcanvas offcanvas-end" id="loginOffcanvas">
+            <div class="offcanvas-header">
+              <button class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="sub-heading text-danger">LOGIN FORM</div>
+                <div class="heading-lin"></div>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="">Email</label>
+                        <input type="text" class="form-control border border-danger">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Password</label>
+                        <input type="text" class="form-control border border-danger">
+                    </div>
+                    
+                    <button class="btn btn-danger float-end"> <i class="bi bi-send-fill"></i> Sign In</button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="offcanvas offcanvas-end" id="registerOffcanvas">
+            <div class="offcanvas-header">
+              <button class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="sub-heading text-danger">REGISTRATION FORM</div>
+                <div class="heading-lin"></div>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="">Name</label>
+                        <input type="text" class="form-control border border-danger">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Email</label>
+                        <input type="text" class="form-control border border-danger">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Password</label>
+                        <input type="text" class="form-control border border-danger">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Confirm Password</label>
+                        <input type="text" class="form-control border border-danger">
+                    </div>
+                    <button class="btn btn-danger float-end"> <i class="bi bi-send-fill"></i> Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- AOS  -->
+    <script src="node/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
